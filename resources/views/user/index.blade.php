@@ -1,3 +1,5 @@
+@extends('layout_user.header')
+@section('content')
           <!--------------------
           START - Breadcrumbs
           -------------------->
@@ -147,6 +149,7 @@
       </div>
       <div class="display-type"></div>
     </div>
-    
+    @include('layout_user.script')
   </body>
 </html>
+@endsection
